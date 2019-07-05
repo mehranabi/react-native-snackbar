@@ -92,7 +92,7 @@ public class SnackbarModule extends ReactContextBaseJavaModule{
 
         Snackbar snackbar = Snackbar.make(view, title, duration);
         View snackbarView = snackbar.getView();
-        TextView snackbarText = snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+        TextView snackbarText = snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);
 
         mActiveSnackbars.add(snackbar);
 
