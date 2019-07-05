@@ -2,7 +2,7 @@ package com.azendoo.reactnativesnackbar;
 
 import android.graphics.Color;
 import android.os.Build;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
